@@ -15,7 +15,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173',  // frontend URL
+  origin: 'https://doc-sign-client-zeta.vercel.app',  // frontend URL
   credentials: true,                // allow cookies/auth headers
 }));
 app.use(express.json());
